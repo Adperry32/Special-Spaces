@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641509468734",
+    "project_id": "ssbyaymber",
+    "storage_bucket": "ssbyaymber.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641509468734:android:f89137826f3f21b0f6bf6f",
+        "android_client_info": {
+          "package_name": "com.example.ssa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVRN-f9eVg8obFKed6Hd5F5gWJGPYCs0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
