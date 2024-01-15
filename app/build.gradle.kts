@@ -42,6 +42,7 @@ android {
 
 dependencies {
 
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
     val navVersion = "2.7.6"
 
     //core

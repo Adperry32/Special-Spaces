@@ -1,12 +1,8 @@
 <resources>
     <string name="app_name">SSA</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="single_letter_image">single letter image</string>
-    <string name="white_space">white space</string>
-    <string name="single_line_image">single line image</string>
-    <string name="title_image">title image</string>
-    <string name="agent_name_image">agent name image</string>
-    <string name="decorative_image">decorative image</string>
     <string name="animation_description">splash screen animation</string>
+    <string name="query_hint">Address,City,State,Zip</string>
+    <string name="login">Login</string>
+    <string name="google_sign_in">Google Sign In</string>
 </resources>
