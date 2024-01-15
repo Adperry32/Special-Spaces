@@ -5,4 +5,5 @@
     <string name="query_hint">Address,City,State,Zip</string>
     <string name="login">Login</string>
     <string name="google_sign_in">Google Sign In</string>
+    <string name="skip_login">Skip</string>
 </resources>
