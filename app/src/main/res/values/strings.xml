@@ -6,4 +6,7 @@
     <string name="login">Login</string>
     <string name="google_sign_in">Google Sign In</string>
     <string name="skip_login">Skip</string>
+    <string name="register_button">Register</string>
+    <string name="admin_signin_option">Admin signin option</string>
+    <string name="logo_banner">logo banner</string>
 </resources>

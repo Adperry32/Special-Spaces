@@ -10,10 +10,25 @@
     >
 
     <ImageView
+        android:id="@+id/admin_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/baseline_admin_panel_settings_24"
+        android:clickable="true"
+        android:contentDescription="@string/admin_signin_option"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="35dp"
+        android:contentDescription="@string/logo_banner"
         android:src="@drawable/ajbackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,8 +37,8 @@
     <Button
         android:id="@+id/login_button"
         android:layout_width="106dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="96dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/custom_button_login_screen"
         android:text="@string/login"
         android:textSize="15sp"
@@ -35,17 +50,28 @@
     <Button
         android:id="@+id/google_signIn"
         android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/custom_button_login_screen"
         android:drawableStart="@drawable/icons8_google"
+        android:drawablePadding="-20dp"
         android:paddingStart="3dp"
         android:paddingEnd="0dp"
         android:text="@string/google_sign_in"
-        android:textSize="15sp"
-        android:drawablePadding="-20dp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_button" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="106dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button_login_screen"
+        android:text="@string/register_button"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_button" />
 
@@ -63,6 +89,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/google_signIn"
         android:focusable="true" />
+
+    <fragment
+        android:id="@+id/nav_host_fragment_activity_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/navigation" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
