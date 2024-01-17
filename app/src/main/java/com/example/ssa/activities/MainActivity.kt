@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity(), Navigator {
         //initiate log in pop up dialog and check authorization
         bind.loginButton.setOnClickListener {
           bind.loginPopUp.logInDialog.visibility = View.VISIBLE
-            TODO("Set on touch listener to check for outside touch to close the popup")
-            TODO("Inside touch listener block add logic for user interaction of the submit+login button")
+            //TODO("Set on touch listener to check for outside touch to close the popup")
+            //TODO("Inside touch listener block add logic for user interaction of the submit+login button")
         }
 
         //switch to register screen
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity(), Navigator {
 
         //google log in logic and screen switch
         bind.googleSignIn.setOnClickListener {
-            TODO(" Add logic for google sign in...integrate google OAuth")
+            //TODO(" Add logic for google sign in...integrate google OAuth")
         }
         bind.adminLogin.setOnClickListener {
             val intent = Intent(this, AgentAdminActivity::class.java)
