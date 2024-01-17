@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="275dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/cool_grey"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="25dp"
+    android:id="@+id/log_in_dialog"
+    >
+   <ImageView
+       android:layout_width="400dp"
+       android:layout_height="350dp"
+       android:src="@drawable/ajbackground"
+       android:layout_gravity="center"
+       android:alpha="0.1"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_welcome_back"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/user_name_user_email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/log_in_box"
+        android:hint="@string/login_username_email"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/twotone_account_circle_24"
+        android:drawablePadding="3dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="0dp"
+        android:paddingTop="5dp"
+        android:autofillHints="username"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/log_in_box"
+        android:hint="@string/login_password"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/twotone_lock_24"
+        android:drawablePadding="3dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="0dp"
+        android:paddingTop="5dp"
+        android:autofillHints="username"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        />
+
+    <CheckBox
+        android:id="@+id/save_log_in_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_me_checkbox"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="173dp"
+        android:textSize="12sp"
+        android:focusableInTouchMode="true"
+        />
+ <Button
+     android:id="@+id/login_submit_btn"
+     android:layout_width="wrap_content"
+     android:layout_height="25dp"
+     android:background="@drawable/custom_button_login_screen"
+     android:text="@string/login_submit_button"
+     android:layout_marginStart="80dp"
+     android:layout_marginTop="215dp"
+
+     />
+
+    <TextView
+        android:id="@+id/forgot_password_clickable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="@string/forgot_password_clickable"
+        android:textColor="@color/mauve"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="275dp"
+        />
+
+
+</androidx.cardview.widget.CardView>

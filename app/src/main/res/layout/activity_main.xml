@@ -10,6 +10,18 @@
     android:id="@+id/mainActivity"
     >
 
+    <include
+        layout="@layout/pop_up_log_in_dialog"
+        android:id="@+id/login_pop_up"
+        android:layout_width="275dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="224dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        />
+
     <ImageView
         android:id="@+id/admin_login"
         android:layout_width="30dp"

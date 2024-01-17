@@ -17,5 +17,11 @@
     <string name="settings_title_preference">Preference</string>
     <string name="title_theme">Theme</string>
     <string name="title_contact">Contact</string>
+    <string name="title_welcome_back">Welcome Back</string>
+    <string name="login_username_email">Username/Email</string>
+    <string name="login_password">Password</string>
+    <string name="remember_me_checkbox">Remember Me</string>
+    <string name="forgot_password_clickable">Forgot Password?</string>
+    <string name="login_submit_button">Login</string>
 
 </resources>
