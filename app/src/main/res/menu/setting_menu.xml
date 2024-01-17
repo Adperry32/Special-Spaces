@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings_preference"
+        android:title="@string/settings_title_preference"
+        />
+    <item
+        android:id="@+id/settings_theme"
+        android:title="@string/title_theme"
+        />
+    <item
+        android:id="@+id/settings_clear"
+        android:title="Clear Data"/>
+</menu>

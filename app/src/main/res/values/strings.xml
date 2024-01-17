@@ -9,4 +9,13 @@
     <string name="register_button">Register</string>
     <string name="admin_signin_option">Admin signin option</string>
     <string name="logo_banner">logo banner</string>
+
+    <string name="title_favorite">Saved Homes</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_loan_calculator">Loan Calculator</string>
+    <string name="settings_title_preference">Preference</string>
+    <string name="title_theme">Theme</string>
+    <string name="title_contact">Contact</string>
+
 </resources>
